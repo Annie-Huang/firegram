@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {projectStorage} from "../firebase/config";
 
+// If you upload the same file again and again, it won't store it multiple times in firebase. Just once.
 const useStorage = (file) => {
     const [progress, setProgress] = useState(0);
     const [error, setError] = useState(null);
