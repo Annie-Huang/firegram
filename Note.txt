@@ -1,0 +1,13 @@
+Build a Photo Gallery With React & Firebase
+(https://www.youtube.com/watch?v=vUe91uOx7R0&t=217s)
+
+https://github.com/iamshaunjp/firegram/tree/starter-files
+https://github.com/iamshaunjp/firegram/tree/final-files
+https://github.com/Annie-Huang/firegram
+
+===============================================================
+
+The content of the config.js is copied from firebase. Check C:\react\Firebase.docx
+C:\react\firegram\src\firebase\config.js
+
+C:\react\firegram>npm install firebase
