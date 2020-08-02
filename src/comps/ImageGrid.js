@@ -6,6 +6,7 @@ const ImageGrid = ({setSelectedImg}) => {
     const {docs} = useFirestore('images');
     console.log(docs);
 
+    // delay: 1. 1 is 1 second.
     return (
         <div className="img-grid">
             {docs && docs.map(doc => (
@@ -14,7 +15,11 @@ const ImageGrid = ({setSelectedImg}) => {
                     whileHover={{opacity: 1}}
                     onClick={() => setSelectedImg(doc.url)}
                 >
-                    <img src={doc.url} alt="uploaded pic" />
+                    <motion.img src={doc.url} alt="uploaded pic"
+                        initial={{opacity: 0}}
+                        animate={{opacity: 1}}
+                        transition={{delay: 1}}
+                    />
                 </motion.div>
             ))}
         </div>
