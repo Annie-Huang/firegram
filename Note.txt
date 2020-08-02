@@ -5,9 +5,12 @@ https://github.com/iamshaunjp/firegram/tree/starter-files
 https://github.com/iamshaunjp/firegram/tree/final-files
 https://github.com/Annie-Huang/firegram
 
+https://www.framer.com/
+https://www.framer.com/motion/
 ===============================================================
 
 The content of the config.js is copied from firebase. Check C:\react\Firebase.docx
 C:\react\firegram\src\firebase\config.js
 
 C:\react\firegram>npm install firebase
+C:\react\firegram>npm install framer-motion
