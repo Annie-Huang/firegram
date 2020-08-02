@@ -85,7 +85,7 @@ label:hover{
     position: relative;
     opacity: 0.8;
 }
-.img-wrap img{
+.img-wrap img{ /* This is like two layers, the wrapper limit the square and the img display the image within that square */
     min-width: 100%;
     min-height: 100%;
     max-width: 150%;
