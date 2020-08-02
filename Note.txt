@@ -4,6 +4,7 @@ Build a Photo Gallery With React & Firebase
 https://github.com/iamshaunjp/firegram/tree/starter-files
 https://github.com/iamshaunjp/firegram/tree/final-files
 https://github.com/Annie-Huang/firegram
+https://console.firebase.google.com/u/0/?pli=1
 
 https://www.framer.com/
 https://www.framer.com/motion/
